@@ -1,0 +1,13 @@
+blog_homepage:
+    path:     /
+    defaults: { _controller: RokkaBlogBundle:Default:index }
+
+blog_category:
+    path:     /{category}
+    defaults: { _controller: RokkaBlogBundle:Default:category }
+
+blog_post:
+    path:     /{category}/{post}
+    defaults: { _controller: RokkaBlogBundle:Default:post }
+
+blog_post_add:

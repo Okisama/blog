@@ -1,0 +1,5 @@
+rokka_blog:
+    resource: "@RokkaBlogBundle/Resources/config/routing.yml"
+    prefix:   /
+
+
